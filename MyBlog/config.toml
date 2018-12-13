@@ -1,0 +1,33 @@
+baseurl = "https://www.example.org/"
+title = "Geek's Blog"
+copyright = "Copyright &copy; 2017 - Author Name: abstracthex@163.com"
+canonifyurls = true
+theme = "kiera"
+
+paginate = 10
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "abstracthex@163.com"
+    github = "fanswm/hugo"
+    gitlab = "abstracthex@gitlab.com"
+    linkedin = "abstracthex@linkedin"
+    facebook = "abstracthex@facebook"
+    twitter = "abstracthex@twitter"
+    instagram = "abstracthex@instagram"
+
+[params]
+    tagline = "分享干货: Linux, Windows, 系统管理, 办公软件用法，极客之家"
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    url = "/posts/"
+
